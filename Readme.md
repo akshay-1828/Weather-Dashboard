@@ -3,7 +3,7 @@
 
 This project is a real-time data analytics dashboard that fetches live weather data using an API, stores historical data, performs analysis, and visualizes trends with predictions.
 
-It demonstrates end-to-end data analysis workflow including:
+It demonstrates an end-to-end data analysis workflow including:
 
 Data collection (API)
 Data storage
@@ -42,7 +42,7 @@ cd weather-dashboard
 pip install -r requirements.txt
 3️⃣ Add your API key
 
-Get API key from OpenWeather and update in fetch_data.py:
+Get your API key from OpenWeather and update in fetch_data.py:
 
 API_KEY = "your_api_key_here"
 4️⃣ Run data collection script
@@ -52,3 +52,15 @@ Run multiple times to build dataset.
 
 5️⃣ Run dashboard
 streamlit run app.py
+📊 Example Insights
+High temperature trends observed during daytime
+Humidity increases when temperature drops
+Certain cities show higher fluctuations
+🤖 Machine Learning
+Implemented Linear Regression to predict future temperature
+Helps in understanding upcoming trends
+💡 Future Improvements
+Auto data collection using scheduler
+Deploy dashboard online
+Add more weather parameters (wind, pressure)
+Use advanced ML models
